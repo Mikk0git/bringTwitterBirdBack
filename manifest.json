@@ -1,18 +1,24 @@
 {
-  "manifest_version": 2,
-  "name": "bringTwitterBirdBack",
-  "version": "1.0",
-  "description": "bringTwitterBirdBack",
-  "browser_action": {
-    "default_icon": "larry.svg"
-  },
-  "permissions": [
-    "activeTab"
-  ],
-  "content_scripts": [
-    {
-      "matches": ["*://twitter.com/*"],
-      "js": ["content.js"]
-    }
-  ]
-}
+    "manifest_version": 2,
+    "name": "BringTwitterBirdBack",
+    "version": "1.0",
+    "description": "Brings back the Twitter bird icon",
+    "icons": {
+      "48": "larry.svg"
+    },
+    "permissions": ["activeTab"],
+    "browser_action": {
+      "default_popup": "index.html",
+      "default_icon": {
+        "48": "larry.svg"
+      }
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://twitter.com/*"],
+        "js": ["content.js"],
+        "run_at": "document_end"
+      }
+    ]
+  }
+  
