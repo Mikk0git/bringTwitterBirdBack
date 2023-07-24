@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "bringTwitterBirdBack",
+  "version": "1.0",
+  "description": "bringTwitterBirdBack",
+  "browser_action": {
+    "default_icon": "larry.svg"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://www.twitter.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
