@@ -1,6 +1,8 @@
 ﻿# bring Twitter Bird Back
 ---
 
+it may not woks 💀💀💀
+
 ## Install
 ### Firefox:
 https://addons.mozilla.org/pl/firefox/addon/bring-twitter-bird-back/
