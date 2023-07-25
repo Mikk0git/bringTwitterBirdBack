@@ -1,7 +1,7 @@
 ﻿# bring Twitter Bird Back
 ---
 
-it may not woks 💀💀💀
+it may not work 💀💀💀
 
 ## Install
 ### Firefox:
